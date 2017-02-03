@@ -8,6 +8,8 @@
 
 import UIKit
 
+var tipDefaultIndex = 0;
+
 class ViewController: UIViewController {
     @IBOutlet weak var tipLabel: UILabel!
     @IBOutlet weak var totalLabel: UILabel!
@@ -17,6 +19,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        tipControl.selectedSegmentIndex = tipDefaultIndex;
     }
 
     override func didReceiveMemoryWarning() {
@@ -30,6 +33,7 @@ class ViewController: UIViewController {
     
     @IBAction func calculateTip(_ sender: AnyObject) {
         let tipPercentages = [0.15, 0.18, 0.20];
+        
         
         
         let bill = Double(billField.text!) ?? 0;
