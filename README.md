@@ -30,8 +30,7 @@ Here's a walkthrough of implemented user stories:
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
-
-UISegmentControl would not drag to the function. Reconnecting the UI elements and changing the calclulateTip function's signature from 'any' to 'anyObject' fixed the issue.
+* UISegmentControl would not drag to the function. Reconnecting the UI elements and changing the calclulateTip function's signature from 'any' to 'anyObject' fixed the issue.
 
 ## License
 
