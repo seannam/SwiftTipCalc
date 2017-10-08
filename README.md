@@ -1,6 +1,6 @@
-# Pre-work - *Swift Tip Calculator*
+# *Swift Tip Calculator*
 
-**Swift Tip Calculator** is a tip calculator application for iOS.
+**Tipper** is a simple tip calculator for iOS.
 
 Submitted by: **Sean Nam**
 
@@ -25,7 +25,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.giphy.com/l3q2U0trEzFUqBB4Y.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://media.giphy.com/media/26vIeMNJx6JtXnWDe/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
